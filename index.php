@@ -62,7 +62,7 @@
                 </div>
               </div>
               <div class="card-body">
-                <form action='dashboard.php' role="form" class="text-start">
+                <form action='dashboard.php?pageName=Dashboard' role="form" class="text-start">
                   <div class="input-group input-group-outline my-3">
                     <label class="form-label">Email</label>
                     <input type="email" value="admin@gmail.com" class="form-control">

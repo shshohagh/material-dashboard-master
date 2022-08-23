@@ -23,7 +23,7 @@
   
 </head>
 
-<body class="g-sidenav-show  bg-gray-200">
+<body class="g-sidenav-show  bg-gray-200 <?php if($version=='dark'){echo $version.'-version';} ?>">
   <?php require('aside.php');?>
   <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
     <!-- Navbar -->
@@ -144,7 +144,7 @@
         <div class="col-lg-4 mt-4 mb-3">
           <div class="card z-index-2 ">
             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-              <div class="bg-gradient-dark shadow-dark border-radius-lg py-3 pe-1">
+              <div class="bg-gradient-info shadow-dark border-radius-lg py-3 pe-1">
                 <div class="chart">
                   <canvas id="chart-line-tasks" class="chart-canvas" height="170"></canvas>
                 </div>

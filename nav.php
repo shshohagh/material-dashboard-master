@@ -9,7 +9,7 @@
         </nav>
         <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
           <div class="ms-md-auto pe-md-3 d-flex align-items-center">
-			<font color='black' size='5' font='Arial' style='bold'>$9954356465</font>
+			<font color='<?php if($version=='dark'){echo 'white';}else{echo 'black';} ?>' size='5' font='Arial' style='bold'>$9954356465</font>
           </div>
           <ul class="navbar-nav  justify-content-end">
             <li class="nav-item d-flex align-items-center">
